@@ -1,0 +1,47 @@
+body{
+    display: flex;
+    flex-direction: column;
+    background-color: hsl(30, 54%, 90%);
+    max-height: 100vh;
+}
+.attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 44%); 
+}
+
+#container{
+    background-color: hsl(0, 0%, 100%);
+    width:580px;
+    padding:32px;
+    border-radius:15px ;
+}
+
+img{
+    width:580px;
+}
+#preparation{
+    background-color: hsl(330, 100%, 98%);
+    padding:3px 10px;
+    border-radius: 4px;
+}
+#prep{
+    color:hsl(332, 51%, 32%);font-size: 20px;
+}
+.bold{
+    font-weight:600;
+}
+li{
+    margin:5px;
+}
+
+h2{
+    color:hsl(14, 45%, 36%);
+}
+
+#nutriSection div{
+    display: flex;
+    flex-direction: column;
+}
